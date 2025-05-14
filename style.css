@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Imagens */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Layout reverso para cidade */
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.intro.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Texto */
+.text {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
